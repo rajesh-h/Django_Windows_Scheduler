@@ -1,0 +1,13 @@
+{% extends "admin/change_form.html" %}
+{% load static %}
+{# This extension is only for the schedule model in schedule app #}
+{% block extrastyle %}
+{{block.super}}
+<link href="{% static "windows_scheduler/css/customstyles.css" %}"  rel="stylesheet">
+{% endblock %}
+
+
+{% block admin_change_form_document_ready %}
+{{ block.super }}
+<script type="text/javascript" src="{% static "windows_scheduler/js/schedule_more_option_selection.js" %}"></script>
+{% endblock %}

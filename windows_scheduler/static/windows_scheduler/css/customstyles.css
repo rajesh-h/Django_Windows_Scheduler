@@ -1,0 +1,36 @@
+p.datetime br {
+  display:none;
+}
+
+.form-row.field-schedule_option_repeat {
+  padding-left:10%;
+}
+.form-row.field-schedule_option_week {
+  display: none;
+}
+
+ul#id_schedule_option_week li {
+    display: inline;
+}
+
+.form-row.field-schedule_option_month,
+.form-row.field-schedule_option_month_option,
+.form-row.field-schedule_option_month_day,
+.form-row.field-schedule_option_month_on,
+.form-row.field-schedule_option_month_on_day
+ {
+  display: none;
+}
+
+ul#id_schedule_option_month li {
+    display: inline;
+}
+ul#id_schedule_option_month_day li {
+    display: inline;
+}
+ul#id_schedule_option_month_on li {
+    display: inline;
+}
+ul#id_schedule_option_month_on_day li {
+    display: inline;
+}
