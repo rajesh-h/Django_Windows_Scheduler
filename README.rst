@@ -34,4 +34,4 @@ Quick start
 
 
 ScreenShot:
-[[https://github.com/just10minutes/Django_Windows_Scheduler/blob/master/ScreenSHots/schedulePage.png|alt=SchedulePage]]
+[[https://github.com/just10minutes/Django_Windows_Scheduler/blob/master/ScreenShots/schedulePage.png|alt=SchedulePage]]
