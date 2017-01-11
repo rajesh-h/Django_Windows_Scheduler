@@ -32,4 +32,4 @@ Quick start
 
 7. Visit http://127.0.0.1:8000/admin/windows_scheduler/schedule to create the schedule.
 
-![stack Overflow](http://lmsotfy.com/so.png)
+![Screen Shot](./ScreenShots/schedulePage.png)
