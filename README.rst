@@ -34,5 +34,4 @@ Quick start
 
 
 ScreenShot:
-
-![alt tag](./ScreenShots/schedulePage.png)
+[[https://github.com/just10minutes/Django_Windows_Scheduler/blob/master/ScreenSHots/schedulePage.png|alt=SchedulePage]]
