@@ -11,23 +11,28 @@ Detailed documentation is in the "docs" directory.
 
 Quick start
 -----------
-0. Download the zip file inside the dist folder
+1. Download the zip file inside the dist folder, and run pip install django_windows_scheduler-0.1.zip
 
-1. Add "windows_scheduler" to your INSTALLED_APPS setting like this::
+2. Add "windows_scheduler" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
         ...
         'windows_scheduler',
     ]
 
-2. Run `python manage.py migrate` to create the windows_scheduler models.
+3. Run `python manage.py migrate` to create the windows_scheduler models.
 
-3. Run `python manage.py loaddata windows_scheduler_fixture.json` to load some initial data for the windows_scheduler models.
+4. Run `python manage.py loaddata windows_scheduler_fixture.json` to load some initial data for the windows_scheduler models.
 
-4. Run `python manage.py collectstatic` to load static files related to windows_scheduler app.
+5. Run `python manage.py collectstatic` to load static files related to windows_scheduler app.
     Note: Make sure your STATIC_ROOT is setup properly on setting.py. for eg:STATIC_ROOT = BASE_DIR + '/assets/'
 
-5. Start the development server and visit http://127.0.0.1:8000/admin/windows_scheduler/
+6. Start the development server and visit http://127.0.0.1:8000/admin/windows_scheduler/
    to create a schedules (you'll need the Admin app enabled).
 
-6. Visit http://127.0.0.1:8000/admin/windows_scheduler/schedules to create the schedule.
+7. Visit http://127.0.0.1:8000/admin/windows_scheduler/schedule to create the schedule.
+
+
+ScreenShot:
+
+![alt tag](./ScreenShots/schedulePage.png)
