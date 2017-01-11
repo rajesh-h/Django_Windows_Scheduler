@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include windows_scheduler/static *
+recursive-include windows_scheduler/templates *
+recursive-include windows_scheduler/fixtures *
+recursive-include docs *

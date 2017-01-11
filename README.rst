@@ -11,6 +11,7 @@ Detailed documentation is in the "docs" directory.
 
 Quick start
 -----------
+0. Download the zip file inside the dist folder
 
 1. Add "windows_scheduler" to your INSTALLED_APPS setting like this::
 
@@ -24,6 +25,7 @@ Quick start
 3. Run `python manage.py loaddata windows_scheduler_fixture.json` to load some initial data for the windows_scheduler models.
 
 4. Run `python manage.py collectstatic` to load static files related to windows_scheduler app.
+    Note: Make sure your STATIC_ROOT is setup properly on setting.py. for eg:STATIC_ROOT = BASE_DIR + '/assets/'
 
 5. Start the development server and visit http://127.0.0.1:8000/admin/windows_scheduler/
    to create a schedules (you'll need the Admin app enabled).
