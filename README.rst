@@ -31,9 +31,3 @@ Quick start
    to create a schedules (you'll need the Admin app enabled).
 
 7. Visit http://127.0.0.1:8000/admin/windows_scheduler/schedule to create the schedule.
-
-
-ScreenShot:
-![Alt text](./ScreenShots/schedulePage.png?raw=true "Title")
-
-[[https://github.com/just10minutes/Django_Windows_Scheduler/blob/master/ScreenShots/schedulePage.png|alt=SchedulePage]]
