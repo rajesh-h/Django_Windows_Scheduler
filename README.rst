@@ -31,3 +31,5 @@ Quick start
    to create a schedules (you'll need the Admin app enabled).
 
 7. Visit http://127.0.0.1:8000/admin/windows_scheduler/schedule to create the schedule.
+
+![stack Overflow](http://lmsotfy.com/so.png)
